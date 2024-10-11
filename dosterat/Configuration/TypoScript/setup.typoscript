@@ -201,3 +201,16 @@ config {
     concatenateJs = 0
     concatenateCss = 0
 }
+
+plugin.tx_dce {
+    view {
+        # Path to the templates
+        templateRootPath = EXT:dosterat/Resources/Private/Templates/DCE/
+
+        # Path to the partials
+        partialRootPath = EXT:dosterat/Resources/Private/Partials/DCE/
+
+        # Path to the layouts
+        layoutRootPath = EXT:dosterat/Resources/Private/Layouts/DCE/
+    }
+}
