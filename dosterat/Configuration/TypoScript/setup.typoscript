@@ -144,7 +144,7 @@ page {
     }
 
     includeCSS {
-        dosterat_layout = EXT:dosterat/Resources/Public/scss/layout.css
+        dosterat_layout = EXT:dosterat/Resources/Public/Scss/layout.css
     }
 
     includeJSLibs {
