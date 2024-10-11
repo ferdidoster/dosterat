@@ -1,5 +1,9 @@
-// Variables
-@import 'variables';
+//vendors
+@import "Vendors/bootstrap-5.3.3/scss/bootstrap";
 
-// Modules
-// import your modules here
+// Variables
+@import 'Base/variables';
+
+@import 'Layout/navbar';
+@import 'Components/content-elements';
+@import "Components/buttons";
